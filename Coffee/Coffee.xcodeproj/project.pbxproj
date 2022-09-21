@@ -77,7 +77,6 @@
 		AEC146DE28C3F57300F0D1BB /* CoffeeDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDataStore.swift; sourceTree = "<group>"; };
 		AEC146E028C3F80C00F0D1BB /* CoffeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeesView.swift; sourceTree = "<group>"; };
 		AEC146E328C3F88200F0D1BB /* CoffeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRow.swift; sourceTree = "<group>"; };
-		AED4A7B028D54C220009697C /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +119,6 @@
 		AE4E564328C313DE00CBF8BC = {
 			isa = PBXGroup;
 			children = (
-				AED4A7AF28D54BFE0009697C /* ci_scripts */,
 				AE4E564E28C313DE00CBF8BC /* Coffee */,
 				AE7D553828CD47850013DD60 /* CoffeeKit */,
 				AE4E566028C313DF00CBF8BC /* CoffeeTests */,
@@ -229,14 +227,6 @@
 				AE23BD0C28C478AF00392827 /* CoffeeEditor.swift */,
 			);
 			path = Coffees;
-			sourceTree = "<group>";
-		};
-		AED4A7AF28D54BFE0009697C /* ci_scripts */ = {
-			isa = PBXGroup;
-			children = (
-				AED4A7B028D54C220009697C /* ci_post_clone.sh */,
-			);
-			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -589,7 +579,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.CoffeeStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -629,7 +619,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.CoffeeStarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
